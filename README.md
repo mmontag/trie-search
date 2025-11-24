@@ -91,7 +91,7 @@ trie search.
 
 `options.min`: Minimum length of a key to store and search. By default this is 1
 
-`options.ingoreCase`: Ignore case of characters when searching
+`options.ignoreCase`: Ignore case of characters when searching
 
 `idFieldOrFunction`: Used to determine a unique string id for each inserted item, especially used by the reducer. By
 default this is a function that uses the provided keyFields to build up an md5 unique id that is stored on each item
